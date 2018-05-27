@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Criptografar</title>
+    <link <link rel="stylesheet" type="text/css" href="aleatorio.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Criptografar Palavras (César)</h1>
+      <p>Evite letras acentuadas</p>
+
+      <br><br>
+    <section>
+  	<form class="cadastro">
+      <div>
+          <label for="frase">Insira sua linda frase: </label>
+          <br><br>
+          <input id="frase" type="text" placeholder="Frase"/>
+      </div>
+      <br>
+      <div>
+          <label for="casas">Insiras as casas para deslocar: </label>
+          <br><br>
+          <input id="casas" type="text" maxlength="8" placeholder="Numero de casas"/>
+      </div>
+      <br>
+      <button type="button" id="criptografar" name="criptografar">Criptografar</button>
+      <br>
+      <br>
+      <button type="button" id="descriptografar" name="descriptografar">Descriptografar</button>
+  	</form>
+  </section>
+
+  <br></br>
+
+  <textarea id="area"></textarea>
+
+  </div>
+  </body>
+  <script src="./cifraCesar.js"></script>
+</html>

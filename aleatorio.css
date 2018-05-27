@@ -1,0 +1,19 @@
+.cadastro{
+    text-align: center
+}
+#area{
+    text-align: center
+}
+.container{
+    align-content: center;
+    text-align: center;
+}
+p{
+    font-size: 13px;
+}
+body{
+    border: 1px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
